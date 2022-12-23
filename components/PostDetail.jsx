@@ -64,7 +64,7 @@ const PostDetail = ({ post }) => {
           alt={post.title}
           width={400}
           height={400}
-          className="object-top h-full w-full rounded-t-lg"
+          className=" max-h-80 w-full object-cover object-top rounded-t-lg"
         />
       </div>
       <div className="px-4 lg:px-0">

@@ -67,9 +67,9 @@ const PostCard = ({ post }) => {
           </Link>
         </div>
       </div>
-      <div className=" w-full md:w-[200px]  mb-6 md:mb-0  h-60 md:h-[150px]  flex justify-center items-center relative overflow-hidden ">
+      <div className=" w-full md:w-[190px]  mb-6 md:mb-0  h-60 md:h-[150px]  flex justify-center items-center relative overflow-hidden ">
         <Image
-          className="object-top md:object-center   h-60 w-full object-cover md:object-contain  rounded-t-lg  lg:rounded-lg"
+          className="object-top md:object-center   h-60 w-full object-cover md:object-contain  rounded-t-lg  lg:rounded-2xl"
           src={post.featuredImage.url}
           alt={post.title}
           width={320}

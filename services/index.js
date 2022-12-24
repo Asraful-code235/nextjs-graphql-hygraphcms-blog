@@ -237,7 +237,7 @@ export const getComments = async (slug) => {
   return result.comments;
 };
 
-export const getRecentPosts = async () => {
+export const getRecentPost = async () => {
   const query = gql`
     query GetPostDetails() {
       posts(
